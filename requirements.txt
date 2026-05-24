@@ -5,3 +5,4 @@ rdkit
 py3Dmol
 stmol
 protobuf==3.20.3
+ipython_genutils
