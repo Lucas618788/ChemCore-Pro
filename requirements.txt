@@ -1,4 +1,4 @@
 streamlit
-rdkit-pypi
-pandas
 numpy
+pandas
+pillow
