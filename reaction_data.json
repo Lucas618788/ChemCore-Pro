@@ -1,0 +1,990 @@
+[
+  {
+    "id": "rxn_001",
+    "name": "Robinson Annulation",
+    "keywords": "罗宾逊环化 环己酮 丁烯酮 robinson 串联反应 迈克尔加成 羟醛缩合",
+    "smiles_list": [
+      "O=C1CCCCC1",
+      "CC(=O)C=C",
+      "O=C1CCCCC1CCC(=O)C",
+      "O=C1C=CC2CCCCC12"
+    ]
+  },
+  {
+    "id": "rxn_002",
+    "name": "Diels-Alder Reaction",
+    "keywords": "狄尔斯阿尔德 环戊二烯 顺丁烯二酸酐 DA反应 桥环 环加成 周环反应",
+    "smiles_list": [
+      "C1=CC=CC1",
+      "O=C1C=CC(=O)O1",
+      "O=C1C2C=CC(C2)C1=O"
+    ]
+  },
+  {
+    "id": "rxn_003",
+    "name": "Wittig Reaction",
+    "keywords": "维蒂希反应 维蒂希 环己酮 磷叶立德 wittig 烯烃合成",
+    "smiles_list": [
+      "O=C1CCCCC1",
+      "C=P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3",
+      "C=C1CCCCC1",
+      "O=P(C1=CC=CC=C1)(C2=CC=CC=C2)C3=CC=CC=C3"
+    ]
+  },
+  {
+    "id": "rxn_004",
+    "name": "Aldol Condensation",
+    "keywords": "羟醛缩合 乙醛 碱性 加成 消除 交叉缩合 aldol",
+    "smiles_list": [
+      "CC=O",
+      "CC=O",
+      "CC(O)CC=O",
+      "CC=CC=O"
+    ]
+  },
+  {
+    "id": "rxn_005",
+    "name": "Baeyer-Villiger Oxidation",
+    "keywords": "拜耳维立格 拜耳 氧化 苯乙酮 间氯过氧苯甲酸 mCPBA 酯化 迁移",
+    "smiles_list": [
+      "CC(=O)c1ccccc1",
+      "CC(=O)Oc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_006",
+    "name": "Beckmann Rearrangement",
+    "keywords": "贝克曼重排 贝克曼 苯乙酮肟 酰胺 重排 迁移 beckmann",
+    "smiles_list": [
+      "CC(=N/O)\\c1ccccc1",
+      "CC(=O)Nc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_007",
+    "name": "Friedel-Crafts Acylation",
+    "keywords": "傅克酰基化 傅克反应 苯 乙酰氯 三氯化铝 亲电取代 EAS",
+    "smiles_list": [
+      "c1ccccc1",
+      "CC(=O)Cl",
+      "CC(=O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_008",
+    "name": "Suzuki-Miyaura Coupling",
+    "keywords": "铃木偶联 suzuki 苯硼酸 溴苯 钯催化 交叉偶联 联苯",
+    "smiles_list": [
+      "OB(O)c1ccccc1",
+      "Brc1ccccc1",
+      "c1ccc(-c2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_009",
+    "name": "Fischer Esterification",
+    "keywords": "费歇尔酯化 乙酸 乙醇 浓硫酸 酯化反应 亲核加成 消除",
+    "smiles_list": [
+      "CC(=O)O",
+      "CCO",
+      "CC(=O)OCC"
+    ]
+  },
+  {
+    "id": "rxn_010",
+    "name": "Grignard Addition",
+    "keywords": "格氏试剂 格氏加成 丙酮 甲基溴化镁 亲核加成 醇合成",
+    "smiles_list": [
+      "CC(=O)C",
+      "C[Mg]Br",
+      "CC(C)(C)O"
+    ]
+  },
+  {
+    "id": "rxn_011",
+    "name": "Pinacol Rearrangement",
+    "keywords": "频哪醇重排 频哪醇 频哪酮 碳正离子 甲基迁移 浓硫酸",
+    "smiles_list": [
+      "CC(C)(O)C(C)(C)O",
+      "CC(=O)C(C)(C)C"
+    ]
+  },
+  {
+    "id": "rxn_012",
+    "name": "Cannizzaro Reaction",
+    "keywords": "坎尼扎罗反应 苯甲醛 歧化反应 无α氢 强碱 苯甲醇 苯甲酸",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "O=Cc1ccccc1",
+      "OCc1ccccc1",
+      "O=C(O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_013",
+    "name": "Claisen Condensation",
+    "keywords": "克莱森缩合 乙酸乙酯 酯缩合 乙醇钠 乙酰乙酸乙酯 β-酮酯",
+    "smiles_list": [
+      "CCOC(=O)C",
+      "CCOC(=O)C",
+      "CCOC(=O)CC(=O)C"
+    ]
+  },
+  {
+    "id": "rxn_014",
+    "name": "Williamson Ether Synthesis",
+    "keywords": "威廉姆逊合成 威廉姆逊 醚化 苯酚 溴乙烷 苯乙醚 亲核取代 SN2",
+    "smiles_list": [
+      "Oc1ccccc1",
+      "CCBr",
+      "CCOc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_015",
+    "name": "Ozonolysis (Reductive)",
+    "keywords": "臭氧化反应 还原 环己烯 臭氧 锌粉 己二醛 双键断裂",
+    "smiles_list": [
+      "C1=CCCCC1",
+      "O=CCCCCC=O"
+    ]
+  },
+  {
+    "id": "rxn_016",
+    "name": "Hofmann Rearrangement",
+    "keywords": "霍夫曼降级 霍夫曼重排 苯甲酰胺 溴 氢氧化钠 苯胺 异氰酸酯",
+    "smiles_list": [
+      "NC(=O)c1ccccc1",
+      "Nc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_017",
+    "name": "Sandmeyer Reaction",
+    "keywords": "桑德迈尔反应 苯胺 亚硝酸钠 重氮盐 氯化亚铜 氯苯 自由基",
+    "smiles_list": [
+      "Nc1ccccc1",
+      "[N+]#Nc1ccccc1",
+      "Clc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_018",
+    "name": "Clemmensen Reduction",
+    "keywords": "克莱门森还原 苯乙酮 锌汞齐 盐酸 乙苯 羰基还原",
+    "smiles_list": [
+      "CC(=O)c1ccccc1",
+      "CCc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_019",
+    "name": "Wolff-Kishner Reduction",
+    "keywords": "沃尔夫基什纳 黄鸣龙还原 环己酮 水合肼 强碱 环己烷 羰基脱氧",
+    "smiles_list": [
+      "O=C1CCCCC1",
+      "C1CCCCC1"
+    ]
+  },
+  {
+    "id": "rxn_020",
+    "name": "Hell-Volhard-Zelinsky Reaction",
+    "keywords": "HVZ反应 赫尔乌尔哈泽林斯基 丙酸 溴 红磷 α-溴代",
+    "smiles_list": [
+      "CCC(=O)O",
+      "CC(Br)C(=O)O"
+    ]
+  },
+  {
+    "id": "rxn_021",
+    "name": "Fischer Indole Synthesis",
+    "keywords": "费歇尔吲哚合成 苯肼 丙酮 吲哚 重排 缩合",
+    "smiles_list": [
+      "NNc1ccccc1",
+      "CC(=O)C",
+      "Cc1cc2ccccc2[nH]1"
+    ]
+  },
+  {
+    "id": "rxn_022",
+    "name": "Gabriel Synthesis",
+    "keywords": "盖布瑞尔合成 邻苯二甲酰亚胺 卤代烃 伯胺 纯净伯胺合成",
+    "smiles_list": [
+      "O=C1c2ccccc2C(=O)N1",
+      "CCBr",
+      "CCN"
+    ]
+  },
+  {
+    "id": "rxn_023",
+    "name": "Swern Oxidation",
+    "keywords": "斯文氧化 Swern 伯醇 二甲亚砜 DMSO 草酰氯 醛",
+    "smiles_list": [
+      "CCO",
+      "CS(=O)C",
+      "O=C(Cl)C(=O)Cl",
+      "CC=O"
+    ]
+  },
+  {
+    "id": "rxn_024",
+    "name": "Jones Oxidation",
+    "keywords": "琼斯氧化 伯醇 铬酸 硫酸 羧酸 强氧化",
+    "smiles_list": [
+      "CCO",
+      "CC(=O)O"
+    ]
+  },
+  {
+    "id": "rxn_025",
+    "name": "Michael Addition",
+    "keywords": "迈克尔加成 丙二酸二乙酯 丁烯酮 共轭加成 碳负离子",
+    "smiles_list": [
+      "CCOC(=O)CC(=O)OCC",
+      "CC(=O)C=C",
+      "CCOC(=O)C(CCC(=O)C)C(=O)OCC"
+    ]
+  },
+  {
+    "id": "rxn_026",
+    "name": "Mannich Reaction",
+    "keywords": "曼尼希反应 胺甲基化 苯乙酮 甲醛 二甲胺 曼尼希碱",
+    "smiles_list": [
+      "CC(=O)c1ccccc1",
+      "C=O",
+      "CNC",
+      "CN(C)CCC(=O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_027",
+    "name": "Reformatsky Reaction",
+    "keywords": "雷福尔马茨基 苯甲醛 溴代酸酯 锌 羟基酯",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "CCOC(=O)CBr",
+      "CCOC(=O)CC(O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_028",
+    "name": "Stork Enamine Synthesis",
+    "keywords": "斯托克烯胺合成 环己酮 吡咯烷 烯胺 二级胺",
+    "smiles_list": [
+      "O=C1CCCCC1",
+      "N1CCCC1",
+      "C1=CCCCC1N2CCCC2"
+    ]
+  },
+  {
+    "id": "rxn_029",
+    "name": "Williamson Intramolecular (Epoxidation)",
+    "keywords": "分子内威廉姆逊 卤代醇 环氧化物 闭环 SN2",
+    "smiles_list": [
+      "OCCCl",
+      "C1CO1"
+    ]
+  },
+  {
+    "id": "rxn_030",
+    "name": "Grignard Reaction (Ester)",
+    "keywords": "格氏试剂 酯 乙酸乙酯 甲基溴化镁 叔醇 两次加成",
+    "smiles_list": [
+      "CCOC(=O)C",
+      "C[Mg]Br",
+      "CC(C)(C)O"
+    ]
+  },
+  {
+    "id": "rxn_031",
+    "name": "Heck Reaction",
+    "keywords": "赫克反应 heck 碘苯 丙烯酸甲酯 钯催化 交叉偶联 反式双键",
+    "smiles_list": [
+      "c1ccc(I)cc1",
+      "C=CC(=O)OC",
+      "O=C(OC)/C=C/c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_032",
+    "name": "Sonogashira Coupling",
+    "keywords": "园头偶联 sonogashira 碘苯 苯乙炔 钯催化 铜催化 炔烃偶联",
+    "smiles_list": [
+      "c1ccc(I)cc1",
+      "C#Cc1ccccc1",
+      "c1ccc(C#Cc2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_033",
+    "name": "Michaelis-Arbuzov Reaction",
+    "keywords": "阿布佐夫反应 亚磷酸三乙酯 卤代烃 溴乙烷 膦酸酯",
+    "smiles_list": [
+      "CCOP(OCC)OCC",
+      "CCBr",
+      "CCP(=O)(OCC)OCC"
+    ]
+  },
+  {
+    "id": "rxn_034",
+    "name": "Claisen Rearrangement",
+    "keywords": "克莱森重排 烯丙基苯基醚 邻烯丙基苯酚 周环反应 [3,3]迁移 加热",
+    "smiles_list": [
+      "C=CCOc1ccccc1",
+      "Oc1ccccc1CC=C"
+    ]
+  },
+  {
+    "id": "rxn_035",
+    "name": "Favorskii Rearrangement",
+    "keywords": "法沃斯基重排 α-卤代酮 2-氯环己酮 强碱 缩环 环戊基甲酸",
+    "smiles_list": [
+      "O=C1C(Cl)CCCC1",
+      "O=C(O)C1CCCC1"
+    ]
+  },
+  {
+    "id": "rxn_036",
+    "name": "Birch Reduction",
+    "keywords": "伯奇还原 birch 苯 液氨 钠 醇 1,4-环己二烯 孤立双键",
+    "smiles_list": [
+      "c1ccccc1",
+      "C1=CCC=CC1"
+    ]
+  },
+  {
+    "id": "rxn_037",
+    "name": "Haloform Reaction",
+    "keywords": "卤仿反应 碘仿 苯乙酮 次卤酸钠 碘 氢氧化钠 苯甲酸 甲基酮",
+    "smiles_list": [
+      "CC(=O)c1ccccc1",
+      "IC(I)I",
+      "O=C(O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_038",
+    "name": "Vilsmeier-Haack Reaction",
+    "keywords": "维尔斯迈尔哈克 vilsmeier 芳香族甲酰化 DMF 三氯氧磷 N,N-二甲基苯胺",
+    "smiles_list": [
+      "CN(C)c1ccccc1",
+      "O=CN(C)C",
+      "CN(C)c1ccc(C=O)cc1"
+    ]
+  },
+  {
+    "id": "rxn_039",
+    "name": "Darzens Condensation",
+    "keywords": "达参反应 达岑 苯甲醛 氯乙酸乙酯 强碱 环氧酸酯",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "ClCC(=O)OCC",
+      "CCOC(=O)C1OC1c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_040",
+    "name": "Corey-Chaykovsky Reaction",
+    "keywords": "科里契柯夫斯基 corey 硫叶立德 环己酮 环氧化物 扩环",
+    "smiles_list": [
+      "O=C1CCCCC1",
+      "C[S+](C)(=O)[CH2-]",
+      "C1CCC2(CC1)CO2"
+    ]
+  },
+  {
+    "id": "rxn_041",
+    "name": "Ullmann Reaction",
+    "keywords": "乌尔曼反应 ullmann 碘苯 铜粉 偶联 联苯 芳基偶联",
+    "smiles_list": [
+      "c1ccc(I)cc1",
+      "c1ccc(-c2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_042",
+    "name": "Negishi Coupling",
+    "keywords": "根岸偶联 negishi 有机锌 溴苯 钯催化 交叉偶联",
+    "smiles_list": [
+      "Cc1ccc([Zn]Br)cc1",
+      "Brc1ccccc1",
+      "Cc1ccc(-c2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_043",
+    "name": "Buchwald-Hartwig Amination",
+    "keywords": "布赫瓦尔德哈特维希 buchwald 胺化 溴苯 苯胺 钯催化 碳氮键",
+    "smiles_list": [
+      "Brc1ccccc1",
+      "Nc1ccccc1",
+      "c1ccc(Nc2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_044",
+    "name": "Appel Reaction",
+    "keywords": "阿佩尔反应 appel 苯甲醇 四溴化碳 三苯基膦 溴代 构型翻转",
+    "smiles_list": [
+      "OCc1ccccc1",
+      "BrC(Br)(Br)Br",
+      "BrCc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_045",
+    "name": "Mitsunobu Reaction",
+    "keywords": "光延反应 mitsunobu 苯酚 苯甲醇 DEAD 三苯基膦 构型翻转 醚化",
+    "smiles_list": [
+      "Oc1ccccc1",
+      "OCc1ccccc1",
+      "c1ccc(OCc2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_046",
+    "name": "Prilezhaev Reaction (Epoxidation)",
+    "keywords": "普里列扎耶夫 环氧化 环己烯 间氯过氧苯甲酸 mCPBA 环氧环己烷",
+    "smiles_list": [
+      "C1=CCCCC1",
+      "O=C(OO)c1cc(Cl)ccc1",
+      "C1CCC2(C1)O2",
+      "O=C(O)c1cc(Cl)ccc1"
+    ]
+  },
+  {
+    "id": "rxn_047",
+    "name": "Cope Rearrangement",
+    "keywords": "科普重排 cope 周环反应 [3,3]迁移 1,5-己二烯 3-苯基-1,5-己二烯",
+    "smiles_list": [
+      "C=CC(c1ccccc1)CC=C",
+      "C=CCCC=Cc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_048",
+    "name": "Curtius Rearrangement",
+    "keywords": "柯提斯重排 curtius 酰基叠氮 异氰酸酯 苯胺 脱氮 重排",
+    "smiles_list": [
+      "O=C(c1ccccc1)N=[N+]=[N-]",
+      "O=C=Nc1ccccc1",
+      "Nc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_049",
+    "name": "McMurry Coupling",
+    "keywords": "麦克默里偶联 mcmurry 二苯酮 氯化钛 锌 烯烃合成 四苯基乙烯",
+    "smiles_list": [
+      "O=C(c1ccccc1)c2ccccc2",
+      "c1ccc(cc1)C(=C(c2ccccc2)c3ccccc3)c4ccccc4"
+    ]
+  },
+  {
+    "id": "rxn_050",
+    "name": "Oxymercuration-Demercuration",
+    "keywords": "羟汞化脱汞 1-甲基环己烯 醋酸汞 硼氢化钠 马氏加成 醇合成",
+    "smiles_list": [
+      "CC1=CCCCC1",
+      "CC1(O)CCCCC1"
+    ]
+  },
+  {
+    "id": "rxn_051",
+    "name": "Hofmann Elimination",
+    "keywords": "霍夫曼消除 hofmann 季铵碱 消除反应 动力学控制 少取代烯烃 1-丁烯",
+    "smiles_list": [
+      "CCC(C)[N+](C)(C)C",
+      "CCC=C",
+      "CN(C)C"
+    ]
+  },
+  {
+    "id": "rxn_052",
+    "name": "Perkin Reaction",
+    "keywords": "珀金反应 perkin 芳香醛 苯甲醛 乙酸酐 肉桂酸 缩合反应 醋酸钠",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "CC(=O)OC(=O)C",
+      "O=C(O)/C=C/c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_053",
+    "name": "Corey-House Synthesis",
+    "keywords": "科里豪斯合成 corey-house 二烷基铜锂 吉尔曼试剂 溴代烃 偶联 烷烃合成",
+    "smiles_list": [
+      "C[Cu]C",
+      "CCCCBr",
+      "CCCCC"
+    ]
+  },
+  {
+    "id": "rxn_054",
+    "name": "Grignard Carboxylation",
+    "keywords": "格氏试剂 羧化 二氧化碳 苯基溴化镁 苯甲酸 碳链增长",
+    "smiles_list": [
+      "c1ccc([Mg]Br)cc1",
+      "O=C=O",
+      "O=C(O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_055",
+    "name": "Benzoin Condensation",
+    "keywords": "安息香缩合 苯偶姻 苯甲醛 氰化钾 极性翻转 碳负离子",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "O=Cc1ccccc1",
+      "O=C(c1ccccc1)C(O)c2ccccc2"
+    ]
+  },
+  {
+    "id": "rxn_056",
+    "name": "Knoevenagel Condensation",
+    "keywords": "克诺文盖尔 knoevenagel 苯甲醛 丙二酸二乙酯 弱碱 碳碳双键 缩合",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "CCOC(=O)CC(=O)OCC",
+      "CCOC(=O)C(=Cc1ccccc1)C(=O)OCC"
+    ]
+  },
+  {
+    "id": "rxn_057",
+    "name": "Meerwein-Ponndorf-Verley Reduction",
+    "keywords": "MPV还原 异丙醇 异丙醇铝 苯乙酮 酮还原 醇合成 六元环过渡态",
+    "smiles_list": [
+      "CC(=O)c1ccccc1",
+      "CC(O)C",
+      "CC(O)c1ccccc1",
+      "CC(=O)C"
+    ]
+  },
+  {
+    "id": "rxn_058",
+    "name": "Oppenauer Oxidation",
+    "keywords": "奥本奥尔氧化 oppenauer 仲醇 苯乙醇 丙酮 叔丁醇铝 酮合成",
+    "smiles_list": [
+      "CC(O)c1ccccc1",
+      "CC(=O)C",
+      "CC(=O)c1ccccc1",
+      "CC(O)C"
+    ]
+  },
+  {
+    "id": "rxn_059",
+    "name": "Strecker Amino Acid Synthesis",
+    "keywords": "斯特雷克 strecker 氨基酸 乙醛 氨 氢氰酸 丙氨酸 亚胺 氰基",
+    "smiles_list": [
+      "CC=O",
+      "N",
+      "C#N",
+      "CC(N)C(=O)O"
+    ]
+  },
+  {
+    "id": "rxn_060",
+    "name": "Sharpless Epoxidation",
+    "keywords": "夏普莱斯 sharpless 不对称环氧化 烯丙醇 过氧叔丁醇 钛催化 手性",
+    "smiles_list": [
+      "C=CCO",
+      "CC(C)(C)OO",
+      "OCC1OC1"
+    ]
+  },
+  {
+    "id": "rxn_061",
+    "name": "Dieckmann Condensation",
+    "keywords": "狄克曼缩合 dieckmann 己二酸二乙酯 分子内克莱森 环戊酮 缩环 碱性",
+    "smiles_list": [
+      "CCOC(=O)CCCCC(=O)OCC",
+      "CCOC(=O)C1CCCC1=O"
+    ]
+  },
+  {
+    "id": "rxn_062",
+    "name": "Gattermann-Koch Formylation",
+    "keywords": "加特曼科赫 gattermann-koch 苯 一氧化碳 氯化氢 氯化铝 苯甲醛 甲酰化",
+    "smiles_list": [
+      "c1ccccc1",
+      "[C-]#[O+]",
+      "O=Cc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_063",
+    "name": "Rosenmund Reduction",
+    "keywords": "罗森蒙德还原 罗森曼 苯甲酰氯 氢气 钯 硫酸钡 毒化催化剂 苯甲醛",
+    "smiles_list": [
+      "O=C(Cl)c1ccccc1",
+      "[H][H]",
+      "O=Cc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_064",
+    "name": "Balz-Schiemann Reaction",
+    "keywords": "巴尔兹席曼 席曼反应 苯胺 氟硼酸 重氮盐 氟苯 加热分解",
+    "smiles_list": [
+      "Nc1ccccc1",
+      "[N+]#Nc1ccccc1",
+      "Fc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_065",
+    "name": "Reimer-Tiemann Reaction",
+    "keywords": "瑞穆尔悌曼 reimer-tiemann 苯酚 氯仿 氢氧化钠 水杨醛 邻位甲酰化 卡宾",
+    "smiles_list": [
+      "Oc1ccccc1",
+      "ClC(Cl)Cl",
+      "O=Cc1ccccc1O"
+    ]
+  },
+  {
+    "id": "rxn_066",
+    "name": "Skraup Synthesis",
+    "keywords": "斯克劳普 skraup 喹啉 苯胺 甘油 浓硫酸 硝基苯 杂环合成",
+    "smiles_list": [
+      "Nc1ccccc1",
+      "OCC(O)CO",
+      "c1ccc2ncccc2c1"
+    ]
+  },
+  {
+    "id": "rxn_067",
+    "name": "Arndt-Eistert Homologation",
+    "keywords": "阿恩特艾斯特 碳链增长 苯甲酸 重氮甲烷 烯酮 苯乙酸 重排",
+    "smiles_list": [
+      "O=C(O)c1ccccc1",
+      "C=[N+]=[N-]",
+      "O=C(O)Cc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_068",
+    "name": "Schmidt Reaction",
+    "keywords": "施密特反应 schmidt 苯甲酸 叠氮酸 硫酸 苯胺 脱羧 胺化",
+    "smiles_list": [
+      "O=C(O)c1ccccc1",
+      "N=[N+]=[N-]",
+      "Nc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_069",
+    "name": "Chichibabin Reaction",
+    "keywords": "齐齐巴宾 chichibabin 吡啶 氨基钠 氨基化 亲核取代 2-氨基吡啶",
+    "smiles_list": [
+      "c1ccncc1",
+      "[Na+].[NH2-]",
+      "Nc1ccccn1"
+    ]
+  },
+  {
+    "id": "rxn_070",
+    "name": "Kolbe-Schmitt Reaction",
+    "keywords": "科尔贝施密特 kolbe-schmitt 苯酚 二氧化碳 碳酸钠 高压 水杨酸 羧化",
+    "smiles_list": [
+      "Oc1ccccc1",
+      "O=C=O",
+      "O=C(O)c1ccccc1O"
+    ]
+  },
+  {
+    "id": "rxn_071",
+    "name": "Stille Coupling",
+    "keywords": "斯蒂尔偶联 stille 有机锡 溴苯 钯催化 交叉偶联 毒性",
+    "smiles_list": [
+      "c1ccc([Sn](C)(C)C)cc1",
+      "Brc1ccccc1",
+      "c1ccc(-c2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_072",
+    "name": "Glaser Coupling",
+    "keywords": "格拉泽偶联 glaser 苯乙炔 末端炔烃 铜催化 氧气 双炔",
+    "smiles_list": [
+      "C#Cc1ccccc1",
+      "C#Cc1ccccc1",
+      "c1ccc(C#CC#Cc2ccccc2)cc1"
+    ]
+  },
+  {
+    "id": "rxn_073",
+    "name": "Schotten-Baumann Reaction",
+    "keywords": "肖滕鲍曼 schotten-baumann 苯甲酰氯 苯胺 酰胺化 酯化 氢氧化钠水溶液",
+    "smiles_list": [
+      "O=C(Cl)c1ccccc1",
+      "Nc1ccccc1",
+      "O=C(Nc1ccccc1)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_074",
+    "name": "Hinsberg Test",
+    "keywords": "兴斯堡反应 hinsberg 苯磺酰氯 乙胺 伯胺鉴别 磺酰胺 溶于碱",
+    "smiles_list": [
+      "O=S(=O)(Cl)c1ccccc1",
+      "CCN",
+      "CCNS(=O)(=O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_075",
+    "name": "Wagner-Meerwein Rearrangement",
+    "keywords": "瓦格纳梅尔外因 wagner-meerwein 碳正离子 重排 3,3-二甲基-2-丁醇 扩环 甲基迁移",
+    "smiles_list": [
+      "CC(C)(C)C(O)C",
+      "CC(C)=C(C)C"
+    ]
+  },
+  {
+    "id": "rxn_076",
+    "name": "Syn-Dihydroxylation (OsO4)",
+    "keywords": "顺式双羟基化 四氧化锇 OsO4 环己烯 顺式邻二醇 高锰酸钾",
+    "smiles_list": [
+      "C1=CCCCC1",
+      "OC1CCCCC1O"
+    ]
+  },
+  {
+    "id": "rxn_077",
+    "name": "Simmons-Smith Reaction",
+    "keywords": "西蒙斯史密斯 simmons-smith 锌铜偶 二碘甲烷 丙烯 环丙烷化 卡宾",
+    "smiles_list": [
+      "C=CC",
+      "IC(I)",
+      "CC1CC1"
+    ]
+  },
+  {
+    "id": "rxn_078",
+    "name": "Riley Oxidation",
+    "keywords": "二氧化硒氧化 riley 苯乙酮 羰基的α位 二羰基 苯丙酮醛",
+    "smiles_list": [
+      "CC(=O)c1ccccc1",
+      "O=CC(=O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_079",
+    "name": "Gattermann Reaction",
+    "keywords": "加特曼反应 gattermann 苯酚 氢氰酸 氯化氢 氯化锌 甲酰化",
+    "smiles_list": [
+      "Oc1ccccc1",
+      "C#N",
+      "O=Cc1ccc(O)cc1"
+    ]
+  },
+  {
+    "id": "rxn_080",
+    "name": "Pinner Reaction",
+    "keywords": "平纳反应 pinner 腈 乙腈 乙醇 氯化氢 亚胺酸酯",
+    "smiles_list": [
+      "CC#N",
+      "CCO",
+      "CC(=N)OCC"
+    ]
+  },
+  {
+    "id": "rxn_081",
+    "name": "Hydroboration-Oxidation",
+    "keywords": "硼氢化氧化 硼烷 1-甲基环己烯 过氧化氢 反马氏加成 醇合成 顺式加成",
+    "smiles_list": [
+      "CC1=CCCCC1",
+      "CC1CCCC(O)C1"
+    ]
+  },
+  {
+    "id": "rxn_082",
+    "name": "Dess-Martin Oxidation",
+    "keywords": "戴斯马丁氧化 dess-martin DMP 苯甲醇 极性非质子溶剂 醛合成 高价碘",
+    "smiles_list": [
+      "OCc1ccccc1",
+      "O=Cc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_083",
+    "name": "Kumada Coupling",
+    "keywords": "熊田偶联 kumada 苯基溴化镁 溴乙烯 镍催化 钯催化 交叉偶联 格氏试剂",
+    "smiles_list": [
+      "c1ccc([Mg]Br)cc1",
+      "C=CBr",
+      "C=Cc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_084",
+    "name": "Wohl-Ziegler Bromination",
+    "keywords": "沃尔齐格勒 wohl-ziegler 烯丙位溴化 NBS 环己烯 自由基取代 碳自由基",
+    "smiles_list": [
+      "C1=CCCCC1",
+      "O=C1CCC(=O)N1Br",
+      "BrC1C=CCCC1"
+    ]
+  },
+  {
+    "id": "rxn_085",
+    "name": "Tishchenko Reaction",
+    "keywords": "季先科反应 tishchenko 乙醛 醇铝 歧化反应 乙酸乙酯 酯合成",
+    "smiles_list": [
+      "CC=O",
+      "CC=O",
+      "CCOC(=O)C"
+    ]
+  },
+  {
+    "id": "rxn_086",
+    "name": "Pauson-Khand Reaction",
+    "keywords": "波森坎德 pauson-khand 炔烃 烯烃 一氧化碳 钴催化 环戊烯酮 环加成",
+    "smiles_list": [
+      "C#C",
+      "C=C",
+      "[C-]#[O+]",
+      "O=C1CC=CC1"
+    ]
+  },
+  {
+    "id": "rxn_087",
+    "name": "Blanc Chloromethylation",
+    "keywords": "布兰克氯甲基化 blanc 苯 甲醛 氯化氢 氯化锌 亲电取代 氯化苄",
+    "smiles_list": [
+      "c1ccccc1",
+      "C=O",
+      "ClCc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_088",
+    "name": "Finkelstein Reaction",
+    "keywords": "芬克尔斯坦 finkelstein 卤素交换 1-氯丁烷 碘化钠 丙酮 SN2 沉淀",
+    "smiles_list": [
+      "CCCCCl",
+      "[Na+].[I-]",
+      "CCCCI"
+    ]
+  },
+  {
+    "id": "rxn_089",
+    "name": "Pinacol Coupling Reaction",
+    "keywords": "频哪醇偶联 丙酮 镁 汞齐 单电子转移 自由基 频哪醇 碳碳键形成",
+    "smiles_list": [
+      "CC(=O)C",
+      "CC(=O)C",
+      "CC(C)(O)C(C)(C)O"
+    ]
+  },
+  {
+    "id": "rxn_090",
+    "name": "Sommelet Reaction",
+    "keywords": "索姆莱反应 sommelet 氯化苄 乌洛托品 六亚甲基四胺 水解 苯甲醛",
+    "smiles_list": [
+      "ClCc1ccccc1",
+      "O=Cc1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_091",
+    "name": "Olefin Metathesis",
+    "keywords": "烯烃复分解 格拉布催化剂 Grubbs 钌 卡宾 丙烯 2-丁烯 乙烯 诺贝尔奖",
+    "smiles_list": [
+      "C=CC",
+      "C=CC",
+      "C/C=C/C",
+      "C=C"
+    ]
+  },
+  {
+    "id": "rxn_092",
+    "name": "Huisgen Cycloaddition (Click Chemistry)",
+    "keywords": "点击化学 Huisgen 铜催化 叠氮 炔烃 苄基叠氮 苯乙炔 三唑 诺贝尔奖",
+    "smiles_list": [
+      "N=[N+]=[N-]Cc1ccccc1",
+      "C#Cc1ccccc1",
+      "c1ccc(-c2cnnn2Cc3ccccc3)cc1"
+    ]
+  },
+  {
+    "id": "rxn_093",
+    "name": "Staudinger Reaction",
+    "keywords": "施陶丁格 staudinger 叠氮苯 三苯基膦 苯胺 膦亚胺 还原 氮气",
+    "smiles_list": [
+      "N=[N+]=[N-]c1ccccc1",
+      "c1ccc(P(c2ccccc2)c3ccccc3)cc1",
+      "Nc1ccccc1",
+      "O=P(c1ccccc1)(c2ccccc2)c3ccccc3"
+    ]
+  },
+  {
+    "id": "rxn_094",
+    "name": "Luche Reduction",
+    "keywords": "鲁奇还原 luche 氯化铈 硼氢化钠 环己烯酮 烯丙醇 1,2-加成 选择性还原",
+    "smiles_list": [
+      "O=C1C=CCCC1",
+      "OC1C=CCCC1"
+    ]
+  },
+  {
+    "id": "rxn_095",
+    "name": "Steglich Esterification",
+    "keywords": "斯泰格利希 steglich 酯化 DCC DMAP 乙酸 乙醇 常温酯化",
+    "smiles_list": [
+      "CC(=O)O",
+      "CCO",
+      "C(C)(C)(C)N=C=NC(C)(C)(C)",
+      "CC(=O)OCC"
+    ]
+  },
+  {
+    "id": "rxn_096",
+    "name": "Corey-Fuchs Reaction",
+    "keywords": "科里富克斯 corey-fuchs 苯甲醛 四溴化碳 三苯基膦 苯乙炔 碳链增长 炔烃合成",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "BrC(Br)(Br)Br",
+      "C(#C)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_097",
+    "name": "Eschenmoser Salt Aminomethylation",
+    "keywords": "埃申莫瑟盐 eschenmoser 胺甲基化 苯乙酮 亚胺盐 曼尼希反应 烯胺",
+    "smiles_list": [
+      "CC(=O)c1ccccc1",
+      "C[N+](C)=C",
+      "CN(C)CCC(=O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_098",
+    "name": "Mukaiyama Aldol Addition",
+    "keywords": "向山羟醛反应 mukaiyama 苯甲醛 烯醇硅醚 路易斯酸 钛催化 交叉缩合",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "C=C(OC)O[Si](C)(C)C",
+      "O=C(OC)CC(O)c1ccccc1"
+    ]
+  },
+  {
+    "id": "rxn_099",
+    "name": "Pomeranz-Fritsch Reaction",
+    "keywords": "波默兰茨弗里奇 异喹啉 苯甲醛 氨基缩醛 关环 杂环合成",
+    "smiles_list": [
+      "O=Cc1ccccc1",
+      "OCC(OCC)N",
+      "c1ccc2nccc2c1"
+    ]
+  },
+  {
+    "id": "rxn_100",
+    "name": "Electrocyclic Ring Closure",
+    "keywords": "电环化 周环反应 woodward-hoffmann 伍德沃德 霍夫曼 1,3,5-己三烯 1,3-环己二烯 光照 热反应",
+    "smiles_list": [
+      "C=CC=CC=C",
+      "C1=CCCC=C1"
+    ]
+  }
+]
