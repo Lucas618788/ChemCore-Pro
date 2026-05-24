@@ -1,3 +1,8 @@
+import sys
+sys.path.append("/usr/lib/python3/dist-packages")
+
+import streamlit as st
+from rdkit import Chem  # 现在就能正常导入了
 import streamlit as st
 import json
 import re
