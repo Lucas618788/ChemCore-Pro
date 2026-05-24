@@ -36,7 +36,14 @@ st.markdown("""
 # ==========================================
 # 2. 初始化本地数据库与 Session
 # ==========================================
-db_client = chromadb.PersistentClient(path="./chem_db")
+import os
+
+# 🌟 新增：动态获取 main.py 所在的绝对路径
+current_dir = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(current_dir, "chem_db")
+
+# 🌟 修改：使用绝对路径强行导航
+db_client = chromadb.PersistentClient(path=db_path)
 db_collection = db_client.get_or_create_collection(name="reactions")
 
 if "chat_history" not in st.session_state: st.session_state.chat_history = []
