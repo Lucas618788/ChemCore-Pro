@@ -1,7 +1,6 @@
 streamlit
-numpy
-pandas
-pillow
 openai
 chromadb
-protobuf==3.20.3
+rdkit
+py3Dmol
+stmol
